@@ -2,7 +2,7 @@
 
 Fully wireless guitar pedal. A small box mounts on the guitar and sends its knobs, joystick and light sensor over Bluetooth to the pedal on the floor, which runs everything and does processing through a Daisy Seed.
 
-**[Full video walking through the pedal!](LINK_HERE)**
+**[Full video walking through the pedal!](https://youtu.be/8Uf5aeJEN9k)**
 
 ![Ridge Field pedal](assets/EnclosurePrint.png)
 
