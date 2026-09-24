@@ -69,7 +69,7 @@ I have a video [here](https://www.youtube.com/watch?v=Ckmy4d0Q_N0&t=555s) showin
 The DSP library I used is a git submodule, so clone with:
 
 ```sh
-git clone --recursive <this repo>
+git clone --recursive https://github.com/skngh/RidgeField.git
 # if you already cloned it:
 git submodule update --init
 ```
