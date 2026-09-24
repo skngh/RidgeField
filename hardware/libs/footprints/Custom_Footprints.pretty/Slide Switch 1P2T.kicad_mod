@@ -1,0 +1,106 @@
+(footprint "Slide Switch 1P2T"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.05 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "40cb9cf9-3f22-458d-b8d7-207a5888cebb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Slide Switch 1P2T"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "851eff89-5414-4bcc-b41b-299d2124561e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df19af82-3958-4e93-8435-9846621aad3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3cfe867-f761-4814-bc85-a7ae4080f851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.4 -6.35)
+		(end 3.3 6.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "989d4ee9-3155-4a5d-9cc3-ac3707695bb8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "91c5fbb7-0913-43d1-993f-1f2d5c01164a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.05 -4.7)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b0d6ad5-be7c-4dff-a911-fb7f056fb28f")
+	)
+	(pad "2" thru_hole circle
+		(at -0.05 0)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "daff32df-8950-4f72-a717-1e2642ab984b")
+	)
+	(pad "3" thru_hole circle
+		(at -0.05 4.7)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36474492-a1ea-4ab2-89e8-bc66f941b6ca")
+	)
+	(embedded_fonts no)
+)

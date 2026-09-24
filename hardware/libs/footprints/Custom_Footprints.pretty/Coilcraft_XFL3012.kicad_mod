@@ -1,0 +1,129 @@
+(footprint "Coilcraft_XFL3012"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.508 -2.286 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2b616e3e-b981-4f1e-8294-e2047791b48d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Coilcraft_XFL3012"
+		(at 0 3.048 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "205589a2-16fa-4f58-a089-e6215421f2cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2571fadc-74ed-42c9-8b6f-15c61c028253")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48291b2c-8d10-41e1-b31a-0a57ed83cca1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "790c3b4e-2b09-401c-a328-f9f8da995213")
+	)
+	(fp_circle
+		(center -0.508 1.016)
+		(end -0.254 1.016)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6114b721-851d-4d4a-8743-e4eb9bb424eb")
+	)
+	(fp_rect
+		(start -1.778 -1.778)
+		(end 1.778 1.778)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9e58d448-9f09-4513-a58a-e4a1f15f0e17")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.318 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d22e94c7-a814-42c4-87fc-020520a7a2a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.015 0)
+		(size 1 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "05a528a6-5c6f-4f77-be72-15088357bb58")
+	)
+	(pad "2" smd roundrect
+		(at 1.015 0)
+		(size 1 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "86b9f804-eb3c-44f9-a3fd-f2e65380cd6f")
+	)
+	(embedded_fonts no)
+	(model "/Users/samknight/Documents/KiCad/10.0/projects/Bluetooth Pedal/libs/3dmodels/XFL3012.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

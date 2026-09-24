@@ -1,0 +1,3 @@
+[submodule "firmware/daisy/Simple-DSP"]
+	path = firmware/daisy/Simple-DSP
+	url = https://github.com/skngh/Simple-DSP.git

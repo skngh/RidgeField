@@ -1,0 +1,8 @@
+.DS_Store
+
+.history/
+*-backups/
+fp-info-cache
+
+firmware/daisy/build/
+*.bak
